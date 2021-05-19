@@ -1,7 +1,6 @@
 /*
     RubicGANG is a charity token.
-    2% of every transacion is converted to BNB and sent to the Binanc chartiy fundation BSC wallet 
-    (0x8b99f3660622e21f2910ecca7fbe51d654a1517d) https://www.binance.charity/binance-charity-wallet/donate-anonymously
+    2% of every transacion is converted to BNB and sent to a locked BSC Wallet. 
     
     2% of every transaction is redistributed between holders of the coin
     2% if every transacion is burned
