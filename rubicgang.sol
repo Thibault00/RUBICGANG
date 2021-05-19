@@ -459,14 +459,13 @@ contract RUBICGANG is Context, IERC20, Ownable {
     uint256 public _burnFee = 2;
     uint256 private _previousBurnFee = _burnFee;
     
-    
     uint256 public _donationFee = 2;
     uint256 private _previousDonationFee = _donationFee;
     
     uint256 public _maxTxAmount = 500 * 10**6 * 10**9;
     uint256 private minimumTokensBeforeSwap = 5 * 10**5 * 10**9; 
     
-    address payable public charityAddress = 0x8B99F3660622e21f2910ECCA7fBe51d654a1517D; // Charity Address
+    address payable public charityAddress = 0xE7B52ab2499072cf758CA45a0d7Fd30f579EB061; // Charity Address
     //See https://www.binance.charity/binance-charity-wallet/donate-anonymously to confirm this is the right Address
         
     IUniswapV2Router02 public immutable uniswapV2Router;
