@@ -442,14 +442,14 @@ contract RUBICGANG is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 500 * 10**6 * 10**9;
+    uint256 private _tTotal = 21 * 2**6 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
     uint256 private _tBurnTotal;
     uint256 private _tDonationTotal;
 
-    string private _name = "RUBICGANG";
-    string private _symbol = "RG";
+    string private _name = "RUBICGANG2";
+    string private _symbol = "RG2";
     uint8 private _decimals = 9;
 
 
