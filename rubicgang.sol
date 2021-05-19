@@ -442,14 +442,14 @@ contract RUBICGANG is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 5 * 10**6 * 10**9;
+    uint256 private _tTotal = 21 * 10**6 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
     uint256 private _tBurnTotal;
     uint256 private _tDonationTotal;
 
-    string private _name = "RUBICGANG4";
-    string private _symbol = "RG4";
+    string private _name = "RUBICGANG5";
+    string private _symbol = "RG5";
     uint8 private _decimals = 9;
 
 
@@ -462,10 +462,10 @@ contract RUBICGANG is Context, IERC20, Ownable {
     uint256 public _donationFee = 2;
     uint256 private _previousDonationFee = _donationFee;
     
-    uint256 public _maxTxAmount = 500 * 10**6 * 10**9;
+    uint256 public _maxTxAmount = 21 * 10**6 * 10**9;
     uint256 private minimumTokensBeforeSwap = 5 * 10**5 * 10**9; 
     
-    address payable public charityAddress = 0xE7B52ab2499072cf758CA45a0d7Fd30f579EB061; // Charity Address
+    address payable public charityAddress = 0x9F56688D663f45c60923940A47b5512609F442FB; // Charity Address
     //See https://www.binance.charity/binance-charity-wallet/donate-anonymously to confirm this is the right Address
         
     IUniswapV2Router02 public immutable uniswapV2Router;
