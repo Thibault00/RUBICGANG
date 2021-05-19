@@ -6,11 +6,11 @@
     2% of every transaction is redistributed between holders of the coin
     2% if every transacion is burned
     
-    Telegram: https://t.me/RavenXofficial
-    Twitter: https://t.me/RavenXfin
-    Website: https://ravenx.finance
-    Whitepaper: https://ravenx.finance/whitepaper.pdf
-    Medium: https://raven-x.medium.com/the-story-of-raven-x-7f90147fae9e
+    Telegram: 
+    Twitter: 
+    Website:
+    Whitepaper:
+    Medium: 
 */
 
 pragma solidity ^0.6.12;
